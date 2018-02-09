@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ques01">手写文稿中在要写很多东西的时候可能没办法一次性写完。</string>
+    <string name="answer01">手写文稿功能中，如果要临时退出，点击右上角保存图标即可。并且点击物理返回按键时，会提示是否保存。</string>
+
+    <string name="ques02">画板绘画时跳转到其他功能或其他应用清空缓存的问题。</string>
+    <string name="answer02">画板功能中，当临时离开时，由于软件提高了后台存活率，正常情况下返回依旧保存绘制痕迹及缓存。</string>
+
+    <string name="ques03">为什么玩不了游戏？</string>
+    <string name="answer03">许多小伙伴都提出这样一个奇怪的问题，本应用为画板应用，主要功能是画图、绘制、编辑图片，暂时没有加入任何游戏功能，不排除再后续版本中添加趣味游戏的功能，有任何建议的小伙伴请点击左侧菜单栏中的建议反馈联系我们。</string>
+
+    <string name="ques04">画出来的笔迹不够圆润。</string>
+    <string name="answer04">在最新版本中，软件优化了绘制算法，无论绘制速度的大小，笔迹都将圆滑呈现！</string>
+
+    <string name="ques05">广告问题。</string>
+    <string name="answer05">有小伙伴反馈本应用有广告的现象，特此声明：本应用只在"小米应用市场"和"应用宝"上线并且无任何广告，若发现其他平台有盗用【轻量画板】并植入广告的行为，希望小伙伴可以积极联系我们，我们会做后续处理。</string>
+
+
+    <string name="ques06">画完了后怎么办。</string>
+    <string name="answer06">"画板"和"手写文稿"中绘制完毕后点击左下角箭头菜单图标，选择分享作品或保存到手机即可。(图片保存的位置为：手机内置存储/DrawBoard/文件夹下)</string>
+
+</resources>

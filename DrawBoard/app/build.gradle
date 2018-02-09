@@ -1,0 +1,47 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "25.0.3"
+
+    defaultConfig {
+        applicationId "lzc.com.drawboard"
+        minSdkVersion 16
+        targetSdkVersion 23
+        versionCode 27
+        versionName "2.3.4"
+    }
+    aaptOptions {
+        cruncherEnabled = false
+        useNewCruncher = false
+    }
+    signingConfigs {
+        release {
+            storeFile file("myreleasekey.keystore")
+            storePassword "password"
+            keyAlias "MyReleaseKey"
+            keyPassword "password"
+            v2SigningEnabled false
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile files('libs/open_sdk_r5788_lite.jar')
+    compile project(path: ':iOS_Dialog_Library')
+
+    compile 'com.android.support:appcompat-v7:23.3.0'
+    compile 'moe.feng:AlipayZeroSdk:1.1'
+    compile 'com.mcxiaoke.volley:library:1.0.19'
+    compile 'com.tencent.mm.opensdk:wechat-sdk-android-with-mta:+'
+    compile 'com.android.support.constraint:constraint-layout:1.0.0-alpha7'
+    compile 'com.android.support:design:23.4.0'
+    testCompile 'junit:junit:4.12'
+}

@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/lzc/light_project/DrawBoard/iOS_Dialog_Library/build/intermediates/res/merged/androidTest/debug/layout/view_alertdialog.xml",
+        "source": "/Users/lzc/light_project/DrawBoard/iOS_Dialog_Library/build/intermediates/bundles/debug/res/layout/view_alertdialog.xml"
+    },
+    {
+        "merged": "/Users/lzc/Documents/asworkspace/DrawBoard/iOS_Dialog_Library/build/intermediates/res/merged/androidTest/debug/layout/view_alertdialog.xml",
+        "source": "/Users/lzc/Documents/asworkspace/DrawBoard/iOS_Dialog_Library/build/intermediates/bundles/debug/res/layout/view_alertdialog.xml"
+    },
+    {
+        "merged": "/Users/lzc/Documents/asworkspace/DrawBoard/iOS_Dialog_Library/build/intermediates/res/merged/androidTest/debug/layout/view_actionsheet.xml",
+        "source": "/Users/lzc/Documents/asworkspace/DrawBoard/iOS_Dialog_Library/build/intermediates/bundles/debug/res/layout/view_actionsheet.xml"
+    },
+    {
+        "merged": "/Users/lzc/light_project/DrawBoard/iOS_Dialog_Library/build/intermediates/res/merged/androidTest/debug/layout/view_actionsheet.xml",
+        "source": "/Users/lzc/light_project/DrawBoard/iOS_Dialog_Library/build/intermediates/bundles/debug/res/layout/view_actionsheet.xml"
+    },
+    {
+        "merged": "/Users/lzc/light_project/DrawBoard/iOS_Dialog_Library/build/intermediates/res/merged/androidTest/debug/layout/activity_main.xml",
+        "source": "/Users/lzc/light_project/DrawBoard/iOS_Dialog_Library/build/intermediates/bundles/debug/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/lzc/Documents/asworkspace/DrawBoard/iOS_Dialog_Library/build/intermediates/res/merged/androidTest/debug/layout/activity_main.xml",
+        "source": "/Users/lzc/Documents/asworkspace/DrawBoard/iOS_Dialog_Library/build/intermediates/bundles/debug/res/layout/activity_main.xml"
+    }
+]

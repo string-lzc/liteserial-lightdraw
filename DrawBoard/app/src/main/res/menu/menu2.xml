@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_undo"
+        android:icon="@drawable/ic_reply_black_24dp"
+        app:showAsAction="always"
+        android:title="撤回"/>
+    <item
+        android:id="@+id/action_tab"
+        android:icon="@drawable/ic_keyboard_tab_black_24dp"
+        app:showAsAction="always"
+        android:title="Tab"/>
+    <item
+        android:id="@+id/action_del"
+        android:icon="@drawable/ic_delete_black_24dp"
+        app:showAsAction="always"
+        android:title="清除"/>
+    <item
+        android:id="@+id/action_sav"
+        android:icon="@drawable/ic_save_black_24dp"
+        app:showAsAction="always"
+        android:title="保存草稿"/>
+
+
+</menu>

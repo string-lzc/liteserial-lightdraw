@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_tool"
+        android:icon="@drawable/ic_action_tool"
+        app:showAsAction="always"
+        android:title="工具栏"/>
+
+    <item
+        android:id="@+id/action_shape"
+        android:icon="@drawable/ic_action_shape"
+        app:showAsAction="always"
+        android:title="添加图形"/>
+    <item
+        android:id="@+id/action_text"
+        android:icon="@drawable/ic_action_text"
+        app:showAsAction="always"
+        android:title="添加文字"/>
+    <item
+        android:id="@+id/action_photo"
+        android:icon="@drawable/ic_action_photo"
+        app:showAsAction="always"
+        android:title="插入照片"/>
+    <item
+        android:id="@+id/action_layer"
+        android:icon="@drawable/ic_action_layer"
+        app:showAsAction="always"
+        android:title="图层控制"/>
+</menu>

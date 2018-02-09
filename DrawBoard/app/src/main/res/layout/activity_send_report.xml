@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="lzc.com.drawboard.SendReport"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.03"
+        android:text="意见和建议:"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/etSuggestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.35"
+        android:background="@android:drawable/editbox_background"
+        android:gravity="start"
+        android:ems="10"
+
+        android:hint="[发现了问题][有好的建议][联系我们][有bug]"
+        android:inputType="textMultiLine"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.03"
+        android:text="联系方式"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/etContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.03"
+
+        android:background="@android:drawable/editbox_background"
+        android:ems="10"
+        android:hint="[电话][QQ][邮箱]"
+        android:inputType="textPersonName"
+        android:text="" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/customOrange"
+        android:layout_margin="10dp"
+        android:text="提示：\n
+1.（具有代表性）问题将会在'常见问题'模块中统一回复。\n
+2.关于功能的意见和建议将会在'反馈回复'模块中展示。"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:layout_margin="20dp"
+        android:layout_gravity="right"
+        android:id="@+id/btn_submit"
+        android:background="@drawable/btn_selector"
+        android:text="提交"/>
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/item_confirm"
+        android:icon="@drawable/ic_reply_black_24dp"
+        app:showAsAction="always"
+        android:title="确定"/>
+    <item
+        android:id="@+id/item_cancle"
+        android:icon="@drawable/ic_pen_black_24dp"
+        app:showAsAction="always"
+        android:title="取消"/>
+
+</menu>

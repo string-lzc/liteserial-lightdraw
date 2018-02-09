@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/lzc/Documents/asworkspace/DrawBoard/iOS_Dialog_Library/build/intermediates/res/merged/release/anim/actionsheet_dialog_out.xml",
+        "source": "/Users/lzc/Documents/asworkspace/DrawBoard/iOS_Dialog_Library/src/main/res/anim/actionsheet_dialog_out.xml"
+    },
+    {
+        "merged": "/Users/lzc/Documents/asworkspace/DrawBoard/iOS_Dialog_Library/build/intermediates/res/merged/release/anim/actionsheet_dialog_in.xml",
+        "source": "/Users/lzc/Documents/asworkspace/DrawBoard/iOS_Dialog_Library/src/main/res/anim/actionsheet_dialog_in.xml"
+    },
+    {
+        "merged": "/Users/lzc/light_project/DrawBoard/iOS_Dialog_Library/build/intermediates/res/merged/release/anim/actionsheet_dialog_out.xml",
+        "source": "/Users/lzc/light_project/DrawBoard/iOS_Dialog_Library/src/main/res/anim/actionsheet_dialog_out.xml"
+    },
+    {
+        "merged": "/Users/lzc/light_project/DrawBoard/iOS_Dialog_Library/build/intermediates/res/merged/release/anim/actionsheet_dialog_in.xml",
+        "source": "/Users/lzc/light_project/DrawBoard/iOS_Dialog_Library/src/main/res/anim/actionsheet_dialog_in.xml"
+    }
+]
